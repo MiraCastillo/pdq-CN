@@ -1,0 +1,62 @@
+.card-media>img{
+    height: 185px;
+    margin: 0 auto;
+}
+
+.card-media{
+    padding: 10px;
+    overflow: hidden;
+}
+
+.card{
+    font-family: 'Rubik', sans-serif;
+    max-width: 320px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);
+}
+
+.card-header{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.avatar>img{
+    border-radius: 50%;
+    height: 50px;
+}
+
+.avatar{
+    width: 50px;
+}
+
+.header{
+    width: calc(100% - 50px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header>h3{
+    font-weight: 700;
+    font-size: 22px;
+    margin-left: 20px;
+    align-self: start;
+}
+
+.card-content{
+    padding: 15px;
+}
+
+.card-content>p{
+    line-height: 1.3;
+    margin-bottom: 15px;
+}
+
+strong{
+    font-weight: 600;
+}
